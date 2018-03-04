@@ -1,0 +1,12 @@
+add_account 200 fotis
+add_account 500 kapoios
+add_account 1000 maria
+print_multi_balance fotis memis maria
+add_transfer 200 maria fotis
+print_multi_balance fotis memis maria
+add_account 2500 lefterissdf
+add_account 3000 vouladsfa
+add_multi_transfer 200 voula lefteris fotis maria
+print_multi_balance fotis memis maria lefteris voula
+exit
+
