@@ -60,3 +60,9 @@ In this project we have two main programs that the user executes.A bankserver an
     
   - exit
   
+  ## Notes
+  
+  This project demonstrates the use of hashtables,threads,sockets,mutexes and condition variables which are used 
+  to make a bank server-client system where multiple clients can run concurrently,quick safe access to the accounts
+  is achieved and race conditions and deadlocks are avoided.
+  
