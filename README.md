@@ -13,7 +13,7 @@ In this project we have two main programs that the user executes.A bankserver an
     work,it waits to obtain a connection(socket descriptor) from the connection queue(The connection queue could 
     be empty so it waits until a socket descriptor is placed in it).Worker threads receive these socket 
     descriptors in order to communicate with clients and execute their instructions.They send the results back 
-    the same way they received the instructions.Through the socket.
+    the same way they received the instructions(through the socket).
     
   ### Bankclient
     The banclient program connects with the bank server in a port and an address specified from the command line.
