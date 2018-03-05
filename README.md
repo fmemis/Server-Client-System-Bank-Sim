@@ -28,9 +28,11 @@ In this project we have two main programs that the user executes.A bankserver an
   To compile just run make.
   
   To execute bankserver: ./bankserver -p <port> -s <thread_pool_size> -q <queue_size>
+  
   Example: ./bankserver -p 8080 -s 20 -q 30
   
   To execute client: ./bankclient -h <server_host> -p <server_port> -i <command_file>
+  
   Example: ./bankclient -h fotis-computer -p 8080 -i stdin
   
   These are the commands that can be given to the bankclient.
