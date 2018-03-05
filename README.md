@@ -35,16 +35,28 @@ In this project we have two main programs that the user executes.A bankserver an
   
   These are the commands that can be given to the bankclient.
   - add_account <init_amount> name
+  
     Create a bank account with an initial amount of money
+    
   - add_transfer <amount> <src_name> <dst_name>
+  
     Transfer an amount of money from src_name account to dst_name account.
+    
   - add_multi_transfer <amount> <src_name> <dst_name1> <dst_name2> ...(up to a 100)
+  
     Transfer an amount of money from src_name account to multiple accounts.
+    
   - print_balance <name>
+  
     Print account balance
+    
   - print_multi_balance <name1> <name2> ...
+  
     Print multiple accounts balances.
+    
   - sleep <time>
+  
     The client program will sleep for x secs.
+    
   - exit
   
